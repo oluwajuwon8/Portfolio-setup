@@ -70,7 +70,7 @@ p {
   background-image: url("Group.png");
   height: 250px;
   background-repeat: no-repeat;
-  margin-left: 175px;
+  margin-left: 129px;
   position: static;
   margin-top: -144px;
 }
@@ -84,7 +84,7 @@ p {
   height: 83px;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 400;
   text-decoration: none;
   font-family: Roboto, sans-serif;
@@ -157,7 +157,9 @@ p {
 }
 
 #button:hover {
-  background-color: black;
+  background-color: orange;
+  color: red;
+  border: red;
 }
 
 .see {
@@ -173,7 +175,9 @@ p {
 }
 
 .see:hover {
-  background-color: rgb(65, 65, 236);
+  background-color: orange;
+  color: red;
+  border: red;
 }
 
 .bottom {
@@ -219,8 +223,9 @@ p {
 }
 
 .btn:hover {
-  background-color: rgb(156, 142, 142);
-  color: white;
+  background-color: orange;
+  color: red;
+  border: red;
 }
 
 .about {
@@ -258,7 +263,7 @@ p {
 #ground {
   height: 250px;
   overflow-x: hidden;
-  margin-left: 168px;
+  margin-left: 174px;
   position: sticky;
   margin-top: -100px;
 }
