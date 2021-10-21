@@ -67,10 +67,10 @@ p {
 }
 
 #background {
-  background-image: url("");
+  background-image: url("Group.png");
   height: 250px;
   background-repeat: no-repeat;
-  margin-left: 134px;
+  margin-left: 175px;
   position: static;
   margin-top: -190px;
 }
