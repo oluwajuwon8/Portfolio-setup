@@ -1,9 +1,8 @@
 body {
-margin:0;
-padding:0;
-box-sizing: border-box;
-overflow-x: hidden;
-  /* overflow-x: hidden; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 header {
@@ -73,9 +72,16 @@ p {
 #background {
   background-image: url(Group.png);
   height: 250px;
+  margin-top: -19%;
+  margin-left: -14%;
   background-repeat: no-repeat;
   width: 100%;
   position: sticky;
+}
+
+.social_img {
+  display: flex;
+  justify-content: space-between;
 }
 
 .work-section {
@@ -86,6 +92,19 @@ p {
   margin-bottom: 20px;
   font-size: 25px;
   font-weight: 400;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+}
+
+.work-section h1 {
+  text-align: center;
+  color: #16100c;
+  height: 83px;
+  margin-top: 70px;
+  margin-left: -3px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 600;
   text-decoration: none;
   font-family: Roboto, sans-serif;
 }
@@ -103,20 +122,12 @@ p {
   font-family: Roboto, sans-serif;
 }
 
-.pictures {
-  background-image: url("Image\(1\).png");
-  position: relative;
-  height: 237px;
-  margin-top: 60px;
-  width:100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 #post {
   font-weight: 700;
   font-size: 30px;
   margin-top: 24px;
+  margin-left: -3px;
+  text-align: center;
   color: #16100c;
 }
 
@@ -124,19 +135,15 @@ p {
   color: #16100c;
   font-size: 15px;
   font-weight: 400;
+  margin-left: 10px;
 }
 
 .grid-container {
   margin-bottom: 10px;
-  /* margin-left: 50px; */
   display: grid;
   grid-template-columns: auto auto auto auto;
   padding: 1px;
-}
-
-.grid {
-  /* margin-left: -53px; */
-  /* display: grid; */
+  margin-left: 10px;
 }
 
 .grid-item {
@@ -153,7 +160,7 @@ p {
   color: white;
   padding: 12px;
   font-size: 20px;
-  margin-left: 5px;
+  margin-left: 13px;
   margin-bottom: 20px;
   border: none;
   border-radius: 5px;
@@ -168,24 +175,21 @@ p {
 }
 
 .bottom {
-  /* overflow: hidden; */
-  background-color: red;
+  width: 96%;
   margin-top: 20px;
   margin-bottom: 20px;
   position: relative;
 }
 
-.all-cards{
-  background-color: red;
+.all-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid white;
 }
 
 img.image {
-    border: 2px solid red;
-    width: 100%;
-}
-
-.card{
-  border:2px solid yellow;
+  width: 100%;
 }
 
 .centered {
@@ -227,4 +231,127 @@ img.image {
   background-color: orange;
   color: red;
   border: red;
+}
+
+.about {
+  background-color: black;
+  margin-top: 634%;
+}
+
+.about h2 {
+  color: #f06808;
+  font-size: 60px;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 400;
+  letter-spacing: 0.37px;
+}
+
+.about p {
+  font-weight: 400;
+  color: white;
+  margin-left: 20px;
+}
+
+#Resume {
+  font-size: 20px;
+  color: white;
+  background-color: #f06808;
+  border: none;
+  margin-left: 20px;
+  margin-bottom: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-content: center;
+}
+
+#ground {
+  overflow-x: hidden;
+  margin-left: 148px;
+  position: sticky;
+  margin-top: -100px;
+}
+
+.languages {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.languages li {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.framework {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.framework li {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.skill {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.skill li {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.note h3 {
+  font-size: 30px;
+  color: #201915;
+  margin: 3px;
+  margin-left: 20px;
+}
+
+.method {
+  font-size: 18px;
+  margin-left: 20px;
+  color: #6a717e;
+  border-bottom: 1px solid rgb(146, 141, 141);
+  margin-top: 50px;
+}
+
+.email {
+  font-size: 18px;
+  margin-left: 20px;
+  color: #6a717e;
+  border-bottom: 1px solid rgb(146, 141, 141);
+  margin-top: 50px;
+}
+
+p.groove {
+  border-style: groove;
+  height: 80px;
+  border: none;
+  color: #1d1b19;
+  margin-left: 20px;
+  background-color: rgb(228, 222, 222);
+  margin-right: 20px;
+}
+
+#black {
+  margin-left: 50px;
+  height: 43px;
+  width: 111px;
+  margin-bottom: 30px;
+  background-color: #f06808;
+  color: aliceblue;
+  border: none;
+  margin-top: 50px;
+  font-size: 17px;
 }
